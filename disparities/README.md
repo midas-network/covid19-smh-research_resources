@@ -6,7 +6,7 @@ effort for the COVID-19 Scenario Modeling Hub Research Disprities rounds
 For any questions or issues please feel free to open an issue on the 
 GitHub.
 
-## Case Imputation
+## [Case Imputation](./case_imputation)
 
 A high proportion of COVID-19 cases are not reported with 
 demographic information such as race/ethnicity. Populations with
@@ -23,7 +23,7 @@ Source:
 [Trangucci, Rob, Yang Chen, and Jon Zelner. "Modeling rates of disease with missing categorical data." arXiv preprint arXiv:2206.08161 (2022).](https://arxiv.org/abs/2206.08161)
 
 
-## Contact Matrix
+## [Contact Matrix](./contact_matrix)
 
 We produced synthetic daily contact matrices by race/ethnicity in 
 the household, school, community, workplace setting using methodology 
@@ -34,7 +34,7 @@ described in
 For more information, please consult the associated [README.md](./contact_matrix/README.md)
 
 
-## Hospitalization
+## [Hospitalization](./hospitalization_data)
 
 The folder contains hospitalization by race/ethnicity, in a rate per 100,000 people 
 for California and number of hospitalization for North Carolina. 
@@ -55,7 +55,7 @@ without known race/ethnicity.
 
 *In development*
 
-## Population data
+## [Population data](./population_data)
 
 The folder contains state population structure by age and race/ethnicity.
 
@@ -72,7 +72,7 @@ state state population stucture by age and race/ethnicity separately from
 the [United States Census, 2020](https://www.census.gov/quickfacts/fact/table/NC,CA/PST045222)
 
 
-## Serology
+## [Serology](./serology)
 
 The serology data was extracted from the CDC COVID Data Tracker,
 [2020-2021 Nationwide COVID-19 Infection- and Vaccination-Induced Antibody Seroprevalence (Blood donations)](https://covid.cdc.gov/covid-data-tracker/#nationwide-blood-donor-seroprevalence )
@@ -85,7 +85,7 @@ and infection for three regions in California and one region in
 North Carolina by major racial/ethnic groups. 
 
 
-## Vaccination
+## [Vaccination](./vaccination)
 
 This folder contains weekly vaccination data by key demographics for 
 California and North Carolina. We provide the number of individuals 
