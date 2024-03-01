@@ -24,7 +24,7 @@ The folder contains multiple sub-folders:
 - [contact_matrix](./disparities/contact_matrix/): synthetic contact matrices by 
   race/ethnicity in the community, household, workplace, school, and combined 
   setting in the pre-pandemic and pandemic period
-- [mobility](./mobility): weekly mobility data at the census tract level 
+- [mobility](./disparities/mobility): weekly mobility data at the census tract level 
 
 For more information, please consult the associated [README](./disparities/README.md)
 
