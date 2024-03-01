@@ -68,7 +68,7 @@ folder contains also an R script with an example on how to load the data
 - two scripts:
     - [extract_mobility.R](./mobility/extract_mobility.R): R code to extract the
     data from two main repositories:
-    [COVID19USFlows-WeeklyFlows-Ct2020](https://github.com/GeoDS/COVID19USFlows-WeeklyFlows-Ct2020)
+    [COVID19USFlows-WeeklyFlows-Ct2020](https://github.com/GeoDS/COVID19USFlows-WeeklyFlows-Ct2020), 
     [COVID19USFlows-WeeklyFlows-Ct2021](https://github.com/GeoDS/COVID19USFlows-WeeklyFlows-Ct2021)
     - [load_mobility.R](./mobility/load_mobility.R): R code to load the mobility
     data, with a filtering example
