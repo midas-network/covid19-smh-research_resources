@@ -1,0 +1,17 @@
+---
+title: "population_data_README"
+output: html_document
+date: "2024-02-21"
+---
+
+State population structure by age and race/ethnicity separately. 
+Source data: United States Census, 2020: 
+https://www.census.gov/quickfacts/fact/table/NC,CA/PST045222
+
+
+State population stucture by age and race/ethnicity jointly. 
+California source data: 2022 American Community Survey 
+https://www.ppic.org/publication/californias-population/ 
+North Carolina source data: 2020 North Carolina OneMap
+https://www.nconemap.gov/documents/3e7321d33a0c4aee9d0bf6a22e9bd79f/e
+xplore

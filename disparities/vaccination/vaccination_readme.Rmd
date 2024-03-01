@@ -1,0 +1,25 @@
+---
+title: "vaccination_README"
+output: html_document
+date: "2024-02-21"
+---
+
+This file contain weekly vaccination data by key demographics for 
+California and North Carolina. We provide the number of individuals 
+receiving at least 1 dose ('partial_vax') and fully vaccinated 
+('full_vax') by age ('demographic_category' = 'age') and by 
+race/ethnicity ('demographic_category' = 'race_ethnicity'). Age is 
+broken down into '0-17', '18-49', '50-64', '65+', and 'unknown'
+and race/ethnicity is broken down into 'asian','white','black',
+'latino', 'other', and 'unknown', as denoted in 'demographic_value'.
+
+Source data: 
+California Department of Public Health Vaccination Dashboard:
+https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data
+
+North Carolina COVID-19 Dashboard Data: 
+https://covid19.ncdhhs.gov/dashboard/data-behind-dashboards
+
+For more detailed information on vaccine efficacy and vaccine rollout
+schedule assumptions, please visit: 
+https://docs.google.com/document/d/1cPFJbiCgnM1bsOnQy-ZvX3reWUgHWTTtVswA9gRu0aA/edit

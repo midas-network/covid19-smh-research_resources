@@ -27,6 +27,7 @@ The folder contains multiple sub-folders:
 - [mobility](./disparities/mobility): weekly mobility data at the census tract 
   level 
 
+For more information, please consult the associated [README](./disparities/README.md)
 
 ## License
 

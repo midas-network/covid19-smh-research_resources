@@ -1,0 +1,16 @@
+"location","percent","demographic_category","demographic_value","population_2020"
+"06",0.065,"race_ethnicity","black",39538212
+"06",0.022,"race_ethnicity","other",39538212
+"06",0.163,"race_ethnicity","asian",39538212
+"06",0.403,"race_ethnicity","latino",39538212
+"06",0.347,"race_ethnicity","white",39538212
+"06",0.218,"age","0-17",39538212
+"06",0.624,"age","18-64",39538212
+"06",0.158,"age","65+ ",39538212
+"37",0.222,"race_ethnicity","black",10439459
+"37",0.122,"race_ethnicity","other",10439459
+"37",0.036,"race_ethnicity","asian",10439459
+"37",0.615,"race_ethnicity","white",10439459
+"37",0.214,"age","0-17",10439459
+"37",0.611,"age","18-64",10439459
+"37",0.175,"age","65+ ",10439459

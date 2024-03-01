@@ -1,0 +1,21 @@
+---
+title: "hospitalization_readme"
+output: html_document
+date: "2024-02-21"
+---
+
+We provide hospitalization data by race/ethnicity for California
+and North Carolina. 
+
+Sources: 
+California hospitalization rates: COVID-NET Laboratory-confirmed 
+COVID-19 hospitalizations 
+(https://www.cdc.gov/coronavirus/2019-ncov/covidnetdashboard/de/powerb
+i/dashboard.html). Note "Other" has been ommitted due to noise. 
+
+North Carolina hospitalizations: North Carolina Department of Health
+and Human Services Hospital Demographics 
+(https://public.tableau.com/views/NCDHHS_COVID-19_DataDownload_Story_1
+6220681778000/DataBehindtheDashboards?%3Aembed=y&%3AshowVizHome=no). 
+Note a portion of hospitalizations are reported without known 
+race/ethnicity. 

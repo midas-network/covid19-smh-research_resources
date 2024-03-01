@@ -1,0 +1,17 @@
+---
+title: "seroprevalence_data_README"
+output: html_document
+date: "2024-02-20"
+---
+
+The nationwide blood donor seroprevalence survey estimates the
+percentage of the U.S. population ages 16 and older that have
+developed antibodies against SARS-CoV-2. The dataset includes 
+seroprevalence from both infection and both vaccination (combined) 
+and infection for three regions in California and one region in
+North Carolina by major racial/ethnic groups. 
+
+Source: https://covid.cdc.gov/covid-data-tracker/#nationwide-blood-donor-seroprevalence 
+
+For any questions or issues please reach out to
+sbents@alumni.princeton.edu.
