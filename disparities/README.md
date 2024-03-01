@@ -53,7 +53,25 @@ without known race/ethnicity.
 
 ## Mobility
 
-*In development*
+The weekly mobility data at the census tract level are extracted from:
+Kang, Y., Gao, S., Liang, Y. Li, M., Rao, J. and Kruse, J. 
+Multiscale dynamic human mobility flow dataset in the U.S. during the COVID-19 
+epidemic. Scientific Data 7, 390 (2020). 
+https://www.nature.com/articles/s41597-020-00734-5
+
+The folder contains:
+
+- [data](./mobility/data/) folder containing the data, partitioned by year, 
+location and week. The data are available in the `.parquet` format and can 
+be load by using [Apache Arrow](https://arrow.apache.org/docs/index.html). The 
+folder contains also an R script with an example on how to load the data
+- two scripts:
+    - [extract_mobility.R](./mobility/extract_mobility.R): R code to extract the
+    data from two main repositories:
+    [COVID19USFlows-WeeklyFlows-Ct2020](https://github.com/GeoDS/COVID19USFlows-WeeklyFlows-Ct2020)
+    [COVID19USFlows-WeeklyFlows-Ct2021](https://github.com/GeoDS/COVID19USFlows-WeeklyFlows-Ct2021)
+    - [load_mobility.R](./mobility/load_mobility.R): R code to load the mobility
+    data, with a filtering example
 
 ## [Population data](./population_data)
 
