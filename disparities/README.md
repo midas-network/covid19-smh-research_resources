@@ -51,7 +51,7 @@ Note that `"Other"` has been ommitted due to noise.
 Tableau Dashboard. Note that a portion of hospitalizations are reported 
 without known race/ethnicity. 
 
-## Mobility
+## [Mobility](./mobility)
 
 The weekly mobility data at the census tract level are extracted from:
 Kang, Y., Gao, S., Liang, Y. Li, M., Rao, J. and Kruse, J. 
