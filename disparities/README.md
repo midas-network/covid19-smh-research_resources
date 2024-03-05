@@ -14,7 +14,7 @@ reduced access to quality healthcare and testing resources are
 more likely to experience Covid-19 morbidity and mortality,
 and thus is it not appropriate to omit or distribute
 missing case data randomly. We adapt methods described in 
-Trangucci et al. 2023 to infer the distribution of missing cases
+Trangucci et al. 2022 to infer the distribution of missing cases
 by race/ethnicity. Here, we solely consider the cases that 
 were reported without race/ethnicity and do not consider 
 infections that were not reported. 
