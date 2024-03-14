@@ -102,6 +102,27 @@ seroprevalence from both infection and both vaccination (combined)
 and infection for three regions in California and one region in
 North Carolina by major racial/ethnic groups. 
 
+Blood donor data represents a biased sample, so differences between 
+racial/ethnic groups should be interpreted conservatively. 
+Several other serological studies were conducted throughout the study period:
+
+*California*: Cross-sectional serological studies conducted within a hospital 
+network from February 4-17, 2021, indicate the risk of infection for Hispanic/Latino
+is [~5x](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9068757/) that of White 
+individuals aged 18-64. Another serological study found that incidence was 
+[7.5x](https://academic.oup.com/ofid/article/8/8/ofab379/6329153) higher for 
+Hispanic/Latino populations and 
+[2.4x](https://academic.oup.com/ofid/article/8/8/ofab379/6329153) higher for
+Black population compared to White populations from August-December 2020.
+Notably, the latter study adjusted sampling techniques to attempt to reach 
+comparable coverage by race/ethnicity.
+
+*North Carolina:* Serological samples collected from a network of hospitals 
+from 10/25/2020 - 12/26/2020 indicated that seroprevalence was 
+[1.8x](https://journals.asm.org/doi/full/10.1128/msphere.00841-21) higher among 
+Black individuals and 
+[3.9x](https://journals.asm.org/doi/full/10.1128/msphere.00841-21) higher among 
+Hispanic/Latino individuals compared to White populations.
 
 ## [Vaccination](./vaccination)
 
