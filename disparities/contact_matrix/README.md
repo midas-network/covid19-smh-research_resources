@@ -39,7 +39,7 @@ Full matrices are weighted linear combinations of the four
 setting-specific layers. 
 Here 
 `pre-pandemic matrix = p1*school + p2*workplace_prepandemic + community + household`.
-`Pandemic matrix = p2*workplace_prepandemic + community + household`, 
+`Pandemic matrix = p2*workplace_pandemic + community + household`, 
 where `p1` = the proportion of the population between 5-17 years of age 
 and `p2` = the proportion of the population that participates in the 
 workforce according to census data. 
