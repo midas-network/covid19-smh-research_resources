@@ -1,0 +1,95 @@
+occupation_id,occupation,industry
+29-1071,physican assistant,healthcare/public health
+29-1120,therapist,healthcare/public health
+29-1131,veterianarian,healthcare/public health
+29-1140,registered nurse ,healthcare/public health
+29-1150,nurse anesthetists,healthcare/public health
+29-1160,nurse midwive,healthcare/public health
+29-1170,nurse practionioner,healthcare/public health
+29-1210,physician,healthcare/public health
+29-1240,surgeon,healthcare/public health
+29-2000,health technologist and technician,healthcare/public health
+29-2030,diagnostic related technologist and technician,healthcare/public health
+29-2040,emergency medical technician and paramedics,healthcare/public health
+29-2050,health practioner support technologist and technician,healthcare/public health
+29-2060,licensed practical and licensed vocational nurse,healthcare/public health
+29-9090,miscellaneous health technologists and technicians,healthcare/public health
+29-9000,other healthcare practitioners and technical occupations,healthcare/public health
+31-1100,"home health and personal care aides, nursing assistants, orderlies, and pyschiatric aides ",healthcare/public health
+31-2000,occupational therapy and physical therapy assistants and aides,healthcare/public health
+31-9000,other healthcare support occupations,healthcare/public health
+33-2000,firefighting and prevention workers,emergency services
+33-3000,law enforcement workers,emergency services
+43-5030,dispatchers,emergency services
+33-9000,other protective service workers,emergency services
+45-2010,agricultural inspectors,food and agriculture
+45-1011,"first-line supervisors of farming, fishing, and forestry workers",food and agriculture
+45-2040,"graders and sorters, agricultural products",food and agriculture
+45-2090,miscellaneous agricultural workers ,food and agriculture
+45-3030,fishing and hunting workers,food and agriculture
+51-3020,"butchers and other meat, poultry, and fish processing workers",food and agriculture
+11-9010,"farmers, ranchers, and other agricultural managers",food and agriculture
+45-4020,logging workers ,food and agriculture
+17-2150,"mining and geological engineers, including mining safety engineers",energy
+17-2170,petroleum engineers,energy
+17-2160,nuclear engineers ,energy
+47-5010,"derrick, rotary drill, and service unit operators, oil and gas ",energy
+47-5020,surface mining machine operators and earth drillers ,energy
+47-5040,underground mining machine operators,energy
+47-5050,"roustabouts, oil and gas",energy
+51-8000,plant and systems operators,energy/water
+47-5030,"explosives workers, ordnance handling experts, and blasters",energy
+47-5080,helpers- extraction workers,energy
+47-5099,"extraction workers,  all other",energy
+51-8090,miscellanoues plant and systems operators,energy
+19-4050,nuclear technician,energy
+53-1040,supervisors of transportation and material moving occupations,transportation
+53-2020,air traffic controllers and airfield operations specialists ,transportation
+53-3011,"ambulance drivers and attendants, except emergency medical technicians ",transportation
+53-4000,rail transportation workers ,transportation
+53-6011,bridge and lock tenders ,transportation
+53-6051,transportation inspectors ,transportation
+53-7121,"tank car, truck, and ship loaders ",transportation
+43-5050,postal service workers,transportation
+43-5071,"shipping, receviing, and inventory clerks",transportation
+53-3052,"bus drivers, transit and intercity",transportation
+53-7000,material moving workers,transportation
+47-4051,highway maintaince workers,transportation
+49-3040,heavy vehicle and mobile equipment service technicians,transportation
+49-3031,bus and truck mechanics and diesel engine specialists,transportation
+47-4060,rail-track laying and maintainence equipment operators,transportation
+49-3010,aircraft mechanics and service technicians ,transportation
+49-9050,line installers and repairers,communications/information technology
+43-5030,dispatchers,communications/information technology
+21-1015,rehabilitation counselors,government operations
+21-1018,"substance abuse, behavioral, and mental health counselors",government operations
+21-1020,social workers,government operations
+39-4010,embalmers and crematory operators,government operations
+21-1092,probation officers and correctional treatment specialists,government operations
+51-9141,semiconductor processing technician,critical manufacturing
+51-2000,assemblers and fabricators ,critical manufacturing
+47-2220,structural iron and steel workers,critical manufacturing
+47-2210,sheet metal workers,critical manufacturing
+49-9040,"industrial machinery installation, repair, and maintainence workers",critical manufacturing
+47-5051,"rock splitters, quarry",critical manufacturing
+47-2171,reinforcing iron and rebar workers,critical manufacturing
+51-9020,"crushing, grinding, polishing, mixing, and blending workers ",critical manufacturing
+51-9010,"chemical processing machine setters, operators, and tenders",critical manufacturing
+49-9062,medical equipment repairers,critical manufacturing
+47-4040,hazardous materials removal workers,chemical and hazardous materials
+47-4061,septic tank services and sewer pipe cleaners,chemical and hazardous materials
+47-2060,construction laborers,"industrial, commercial, residential"
+47-2000,construction trade workers,"industrial, commercial, residential"
+47-3000,"helpers, construction trades","industrial, commercial, residential"
+47-4011,construction and building inspectors,"industrial, commercial, residential"
+47-4090,miscellaneous construction and related workers,"industrial, commercial, residential"
+47-2070,construction equipment operators,"industrial, commercial, residential"
+47-2150,"pipelayers, plumbers, pipefitters, and steamfitters","industrial, commercial, residential"
+49-9021,"heating, air conditioning, and refrigeration mechanics ","industrial, commercial, residential"
+47-2111,electricians,"industrial, commercial, residential"
+17-2110,"industrial engineers, including health and safety","industrial, commercial, residential"
+37-2000,building cleaning and pest control workers,"industrial, commercial, residential"
+47-4021,elevator and escalator installers and repairers,"industrial, commercial, residential"
+49-2000,"electrical and electronic equipment mechanics, installers, and repairers","industrial, commercial, residential"
+51-4000,metal workers and plastic workers,"industrial, commercial, residential"
+51-6011,laundry and dry-cleaning workers,"industrial, commercial, residential"

@@ -1,5 +1,4 @@
-# System and Library ---
-library(dplyr)
+# setwd("C:/Users/bentssj/OneDrive - National Institutes of Health/Year_2024/equity/contacts")
 
 # Prerequisite -----
 # load in census tract data
@@ -10,63 +9,37 @@ censustract_ca <- read.csv("censustract_ca.csv")
 eff_contacts <- 2.79
 
 #### assortativity coefficient
-# 1 indicates perfect assortativity (within-same race/ethnicity) mixing,
-# while 0 indicates proportionate mixing
+# 1 indicates perfect assortativity (within-same race/ethnicity) mixing, while 0 indicates proportionate mixing
 assort_coeff <- 0.0
 
-#### list of race/ethnicity
+#### list of race/ethnicity groups
 race_list <- c("asian", "white", "black", "latino", "other")
 
 # Workflow -----
-census_tract_contacts <-
-  censustract_ca %>%
+census_tract_contacts <- censustract_ca %>%
   dplyr::group_by(geoid) %>%
-  dplyr::mutate(contact_asian =
-                dplyr::case_when(race_ethnicity == "asian" ~ eff_contacts *
-                                   assort_coeff + (1 - assort_coeff) *
-                                   percent[race_ethnicity == "asian"] *
-                                   eff_contacts,
-                                 TRUE ~ (1 - assort_coeff) *
-                                   percent[race_ethnicity == "asian"] *
-                                   eff_contacts),
-                contact_white =
-                dplyr::case_when(race_ethnicity == "white" ~ eff_contacts *
-                                   assort_coeff + (1 - assort_coeff) *
-                                   percent[race_ethnicity == "white"] *
-                                   eff_contacts,
-                                 TRUE ~ (1 - assort_coeff) *
-                                   percent[race_ethnicity == "white"] *
-                                   eff_contacts),
-                contact_black =
-                dplyr::case_when(race_ethnicity == "black" ~ eff_contacts *
-                                   assort_coeff + (1 - assort_coeff) *
-                                   percent[race_ethnicity == "black"] *
-                                   eff_contacts,
-                                 TRUE ~ (1 - assort_coeff) *
-                                   percent[race_ethnicity == "black"] *
-                                   eff_contacts),
-                contact_latino =
-                dplyr::case_when(race_ethnicity == "latino" ~ eff_contacts *
-                                   assort_coeff + (1 - assort_coeff) *
-                                   percent[race_ethnicity == "latino"] *
-                                   eff_contacts,
-                                 TRUE ~ (1 - assort_coeff) *
-                                   percent[race_ethnicity == "latino"] *
-                                   eff_contacts),
-                contact_other =
-                dplyr::case_when(race_ethnicity == "other" ~ eff_contacts *
-                                   assort_coeff + (1 - assort_coeff) *
-                                   percent[race_ethnicity == "other"] *
-                                   eff_contacts,
-                                 TRUE ~ (1 - assort_coeff) *
-                                   percent[race_ethnicity == "other"] *
-                                   eff_contacts)) %>%
+  dplyr::mutate(contact_asian = eff_contacts * (assort_coeff * (race_ethnicity == "asian") + 
+                                                  (1 - assort_coeff) * (percent[race_ethnicity == "asian"])),
+                
+                contact_white = eff_contacts * (assort_coeff * (race_ethnicity == "white") + 
+                                                  (1 - assort_coeff) * (percent[race_ethnicity == "white"])),
+                
+                contact_black = eff_contacts * (assort_coeff * (race_ethnicity == "black") + 
+                                                  (1 - assort_coeff) * (percent[race_ethnicity == "black"])),
+                
+                contact_latino = eff_contacts * (assort_coeff * (race_ethnicity == "latino") + 
+                                                   (1 - assort_coeff) * (percent[race_ethnicity == "latino"])),
+                
+                contact_other = eff_contacts * (assort_coeff * (race_ethnicity == "other") + 
+                                                  (1 - assort_coeff) * (percent[race_ethnicity == "other"]))) %>% 
   dplyr::ungroup()
 
-# calculate total number of children 5-17yo by race/ethnicity at the state level
+
+# calculate total number of individuals by race/ethnicity at the state level
 state_n <- censustract_ca %>%
   dplyr::group_by(race_ethnicity) %>%
   dplyr::summarize(dplyr::across(pop_size, ~ sum(as.numeric(.x), na.rm = TRUE)))
+
 
 contact_race_list <- list()
 
@@ -94,6 +67,5 @@ contact_matrix <-
 colnames(contact_matrix) <- c("asian", "white", "black", "latino", "other")
 rownames(contact_matrix) <- colnames(contact_matrix)
 
-
 contact_matrix
-# column = race/ethnicity of indivdual, row = race/ethnicity of contact
+
