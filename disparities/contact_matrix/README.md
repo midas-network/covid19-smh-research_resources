@@ -43,7 +43,7 @@ Here
 where `p1` = the proportion of the population between 5-17 years of age 
 and `p2` = the proportion of the population that participates in the 
 workforce according to census data. 
-`p1 = .633` and `.614` and `p2 = .163` and ``.158` in California and 
+`p1 = .633` and `.614` and `p2 = .163` and `.158` in California and 
 North Carolina respectively. We assume that all individuals experience contacts 
 in the household and community setting. Setting-specific matrices are unweighted 
 and teams are welcome to aggregate matrices using their own methodologies. 
