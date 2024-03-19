@@ -1,7 +1,7 @@
 # COVID-19 Scenario Modeling Hub Research - Resources
 
 The repository contains auxiliary data and code relevant to the modeling
-effort for the COVID-19 Scenario Modeling Hub Research rounds
+effort for the [COVID-19 Scenario Modeling Hub Research rounds](https://github.com/midas-network/covid19-smh-research)
 
 
 ## Disparities Rounds 
@@ -55,6 +55,10 @@ The folder contains multiple sub-folders:
   from [Kang et al. 2021](https://www.nature.com/articles/s41597-020-00734-5)
 
 For more information, please consult the associated [README](./disparities/README.md)
+
+More information about the disparities rounds is available on the 
+[COVID-19 Scenario Modeling Hub - Research](https://github.com/midas-network/covid19-smh-research)
+GitHub repository. 
 
 ## License
 
