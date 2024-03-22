@@ -78,16 +78,16 @@ folder contains also an R script with an example on how to load the data
 The folder contains state population structure by age and race/ethnicity.
 
 - [joint_population_data.csv](./population_data/joint_population_data.csv):
-contains state population stucture by age and race/ethnicity jointly from
-the 
+contains state population stucture in percent with 6 decimal places to add
+precision, by age and race/ethnicity jointly from the 
 [Public Policy Institue of California 2022 American Community Survey](https://www.ppic.org/publication/californias-population/) and from the 
 North Carolina Department of Information Technology, Government Data 
 Analytics Center, Center for Geographic Information and Analysis, 
 [NC OneMap](https://www.nconemap.gov/documents/3e7321d33a0c4aee9d0bf6a22e9bd79f/explore)
 
 - [population_data.csv](./population_data/population_data.csv): contains
-state state population stucture by age and race/ethnicity separately from 
-the [United States Census, 2020](https://www.census.gov/quickfacts/fact/table/NC,CA/PST045222)
+state state population size in number by age and race/ethnicity separately from 
+the [United States Census, 2020](https://data.census.gov/table?q=north%20carolina%20dp05&g=010XX00US_040XX00US06)
 
 
 ## [Serology](./serology)
