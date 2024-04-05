@@ -124,7 +124,7 @@ Black individuals and
 [3.9x](https://journals.asm.org/doi/full/10.1128/msphere.00841-21) higher among 
 Hispanic/Latino individuals compared to White populations.
 
-An additional `Serology_data_complete` files is available. It originates 
+An additional `serology_data_complete.csv` file is available. It originates 
 from the same source data but has been adapted to align with the 
 race/ethnicity classifications used in the Disparities Round. 
 The file also contains more complete estimates 
