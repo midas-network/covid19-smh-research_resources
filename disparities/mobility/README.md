@@ -21,5 +21,8 @@ level estimated flow."
 We recommend that teams consider this
 uncertainty when interpreting the large mobility increase. 
 
+If teams are interested in exploring the 
+[Cuebiq mobility data](https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000430), 
+it can be downloaded [here](https://github.com/mobs-lab/covid19-mobility/).
 
 <img src= "./mobility.png">
