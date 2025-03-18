@@ -1,5 +1,3 @@
-# setwd("C:/Users/bentssj/OneDrive - National Institutes of Health/Year_2024/equity/contacts")
-
 # Prerequisite -----
 # load in census tract data
 censustract_nc <- read.csv("censustract_nc.csv")
@@ -18,17 +16,17 @@ race_list <- c("asian", "white", "black", "other")
 # Workflow -----
 census_tract_contacts <- censustract_nc %>%
   dplyr::group_by(geoid) %>%
-  dplyr::mutate(contact_asian = eff_contacts * (assort_coeff * (race_ethnicity == "asian") + 
+  dplyr::mutate(contact_asian = eff_contacts * (assort_coeff * (race_ethnicity == "asian") +
                                                   (1 - assort_coeff) * (percent[race_ethnicity == "asian"])),
-                
-                contact_white = eff_contacts * (assort_coeff * (race_ethnicity == "white") + 
+
+                contact_white = eff_contacts * (assort_coeff * (race_ethnicity == "white") +
                                                   (1 - assort_coeff) * (percent[race_ethnicity == "white"])),
-                
-                contact_black = eff_contacts * (assort_coeff * (race_ethnicity == "black") + 
+
+                contact_black = eff_contacts * (assort_coeff * (race_ethnicity == "black") +
                                                   (1 - assort_coeff) * (percent[race_ethnicity == "black"])),
-                
-                contact_other = eff_contacts * (assort_coeff * (race_ethnicity == "other") + 
-                                                  (1 - assort_coeff) * (percent[race_ethnicity == "other"]))) %>% 
+
+                contact_other = eff_contacts * (assort_coeff * (race_ethnicity == "other") +
+                                                  (1 - assort_coeff) * (percent[race_ethnicity == "other"]))) %>%
   dplyr::ungroup()
 
 
