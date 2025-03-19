@@ -1,4 +1,4 @@
-# Disparities
+# Heterogeneities
 
 The repository contains auxiliary data and code relevant to the modeling
 effort for the COVID-19 Scenario Modeling Hub Research Disprities rounds
@@ -126,7 +126,7 @@ Hispanic/Latino individuals compared to White populations.
 
 An additional `serology_data_complete.csv` file is available. It originates 
 from the same source data but has been adapted to align with the 
-race/ethnicity classifications used in the Disparities Round. 
+race/ethnicity classifications used in the Heterogeneities Round. 
 The file also contains more complete estimates 
 for small populations with upper and lower bounds
 
@@ -148,7 +148,7 @@ Source data:
 
 For more detailed information on vaccine efficacy and vaccine rollout
 schedule assumptions, please consult the Scenario Description associated with
-the disparities SMH round, available on the 
+the heterogeneities SMH round, available on the 
 [COVID-19 Scenario Modeling Hub - Research GitHub repository](https://github.com/midas-network/covid19-smh-research)
 
 

@@ -4,14 +4,14 @@ The repository contains auxiliary data and code relevant to the modeling
 effort for the [COVID-19 Scenario Modeling Hub Research rounds](https://github.com/midas-network/covid19-smh-research)
 
 
-## Disparities Rounds 
+## Heterogeneities Rounds 
 
-The repository contains a [disparities](./disparities/) folder regrouping
-all the auxiliary code and data associated with the disparities rounds.
+The repository contains a [heterogeneities](./heterogeneities/) folder regrouping
+all the auxiliary code and data associated with the heterogeneities rounds.
 
 The folder contains multiple sub-folders:
 
-- [case_imputation](./disparities/case_imputation/): imputed cases by 
+- [case_imputation](./heterogeneities/case_imputation/): imputed cases by 
   race/ethnicity at the state level to infer missing case demographic 
   information. A high proportion of COVID-19 cases are not reported with 
   demographic information such as race/ethnicity. Populations with reduced 
@@ -23,27 +23,27 @@ The folder contains multiple sub-folders:
   the cases that were reported without race/ethnicity and do not consider 
   underreporting issues. 
 
-- [vaccination](./disparities/vaccination/): weekly vaccination data by 
+- [vaccination](./heterogeneities/vaccination/): weekly vaccination data by 
   key demographics for California and North Carolina. We provide the 
    number of individuals receiving at least 1 dose ("partial_vax") and 
   fully vaccinated ("full_vax") by age and by race/ethnicity
 
-- [serology](./disparities/serology/): monthly serology data was extracted 
+- [serology](./heterogeneities/serology/): monthly serology data was extracted 
    from the 
    [CDC COVID Data Tracker, 2020-2021 Nationwide COVID-19 Infection- and Vaccination-Induced Antibody Seroprevalence (Blood donations)](https://covid.cdc.gov/covid-data-tracker/#nationwide-blood-donor-seroprevalence).
    The nationwide blood donor seroprevalence survey estimates the percentage 
    of the U.S. population ages 16 and older that have developed antibodies 
    against SARS-CoV-2.
 
-- [population_data](./disparities/population_data/): state-level population 
+- [population_data](./heterogeneities/population_data/): state-level population 
   structure data by age and race/ethnicity both separately and jointly. 
   Age groups include ‘0-17’, ‘18-64’, and ‘65+’ years.  
 
-- [hospitalization_data](./disparities/hospitalization_data/): hospitalization data
+- [hospitalization_data](./heterogeneities/hospitalization_data/): hospitalization data
   by race/ethnicity, in a rate per 100,000 people for California and 
   number of hospitalizations for North Carolina. 
 
-- [contact_matrix](./disparities/contact_matrix/): synthetic daily contact 
+- [contact_matrix](./heterogeneities/contact_matrix/): synthetic daily contact 
   matrices by race/ethnicity in the household, school, community, workplace 
   setting using methodology described in 
   [Mistry et al. 2021](https://www.nature.com/articles/s41467-020-20544-y) and 
@@ -51,12 +51,12 @@ The folder contains multiple sub-folders:
   We produce two contact matrices reflecting the pre-pandemic and pandemic 
   periods and code and data to manually produce contact matrices.
 
-- [mobility](./disparities/mobility): weekly mobility data at the census tract level 
+- [mobility](./heterogeneities/mobility): weekly mobility data at the census tract level 
   from [Kang et al. 2021](https://www.nature.com/articles/s41597-020-00734-5)
 
-For more information, please consult the associated [README](./disparities/README.md)
+For more information, please consult the associated [README](./heterogeneities/README.md)
 
-More information about the disparities rounds is available on the 
+More information about the heterogeneities rounds is available on the 
 [COVID-19 Scenario Modeling Hub - Research](https://github.com/midas-network/covid19-smh-research)
 GitHub repository. 
 
